@@ -1,14 +1,14 @@
 <div align="center" width="100px">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/4006792/214636328-8e4f83e8-66cb-4114-a3d8-473eb908b9c3.png">
-      <img width="200" alt="saleor-commerce-logo" src="https://user-images.githubusercontent.com/4006792/214636328-8e4f83e8-66cb-4114-a3d8-473eb908b9c3.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
+      <img width="200" alt="saleor-commerce-logo" src="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
    
     </picture>
    </div>
    
    <div align="center">
-     <strong>Customer-centric e-commerce on a modern stack</strong>
+     <strong>Med-Assist Ecommerce Platform</strong>
    </div>
    
    <div align="center">
