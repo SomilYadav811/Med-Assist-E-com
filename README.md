@@ -4,7 +4,6 @@
       <source media="(prefers-color-scheme: light)" srcset="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
       <img width="200" alt="saleor-commerce-logo" src="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
     </picture>
-   </div>
    
    <div align="center">
      <strong>Med-Assist Ecommerce Platform</strong>
@@ -16,11 +15,15 @@
    
    <br>
    <br>
-
+</div>
+   
 
  <div align="center">
    Introducing "MediCareMart" - Your Trusted Med-Assist Ecommerce Platform
-
+ </div>
+<br>
+ <div>
+ 
 MediCareMart is a cutting-edge ecommerce platform tailored specifically for the healthcare industry, revolutionizing the way medical supplies, equipment, and assistance are accessed and distributed. With a seamless user interface and an extensive range of products and services, MediCareMart aims to simplify the procurement process for both healthcare professionals and individual consumers.
 
 Key Features:
@@ -49,4 +52,5 @@ At MediCareMart, we prioritize customer satisfaction above all else. Our dedicat
 Experience the Future of Healthcare Commerce with MediCareMart:
 With its user-centric design, extensive product offerings, and commitment to excellence, MediCareMart is poised to redefine the landscape of med-assist ecommerce. Whether you're a healthcare professional seeking essential supplies or a patient in need of personalized care, trust MediCareMart to deliver quality products, expert guidance, and unparalleled convenience every step of the way. Discover the future of healthcare commerce today with MediCareMart.
    </div>
+   
    
