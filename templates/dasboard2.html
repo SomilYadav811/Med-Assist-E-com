@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<link href="/static/category.css" rel="stylesheet">
+<html lang="en">
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/static/project.js"></script>
+
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper" style="background: #01a3a4;">
+      <a href="/dashboard"><img style="padding: 10px;" src="/static/medassist_logo.png" width="150px"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/displayallcategories"><b>CATEGORIES</b></a></li>
+        <li><a href="/displayallsubcategories"><b>SUB-CATEGORIES</b></a></li>
+        <li><a href="/displayallbrands"><b>BRANDS</b></a></li>
+        <li><a href="/displayallproducts"><b>PRODUCTS</b></a></li>
+        <a class="waves-effect waves-light btn modal-trigger red" href="#modal1">LOGOUT</a>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="/displayallcategories"><b>CATEGORIES</b></a></li>
+    <li><a href="/displayallsubcategories"><b>SUB-CATEGORIES</b></a></li>
+    <li><a href="/displayallbrands"><b>BRANDS</b></a></li>
+    <li><a href="/displayallproducts"><b>PRODUCTS</b></a></li>
+    <li><a href="/logininterface" style="color: red;"><b>LOGOUT</b></a></li>
+  </ul>
+
+
+  <div class="maincontainer"></div>
+  <!-- Modal Trigger -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+
+      <input type="hidden" id="categoryid" />
+      <div class="modelbox">
+        <div class="boxheading">
+          <span class="headingtext">Are You Sure?</span>
+        </div>
+        <br><br><br>
+        <div class="row ">
+          <a href="/logininterface">
+            <div class="col s6 btnrow">
+              <button class="btn waves-effect waves-light btnstyle red">LOGOUT
+                <i class="material-icons right">exit_to_app</i>
+              </button>
+            </div>
+          </a>
+          <div class="col s6 btnrow">
+            <button class="btn waves-effect waves-light btnstyle btnclose" type="button">CANCEL
+              <i class="material-icons right">close</i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('#message').val(' ')
+      $(document).ready(function () {
+        $('.modal').modal();
+      });
+      $('.btnclose').click(function () {
+
+        $('#modal1').modal('close');
+        window.location.reload('http://localhost:8000/displayallcategories')
+
+      })
+    })
+  </script>
+
+</html>
