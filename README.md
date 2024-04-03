@@ -3,7 +3,6 @@
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
       <source media="(prefers-color-scheme: light)" srcset="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
       <img width="200" alt="saleor-commerce-logo" src="https://github.com/SomilYadav811/Med-Assist-E-com/blob/main/assets/medassist_logo.png">
-   
     </picture>
    </div>
    
@@ -12,151 +11,42 @@
    </div>
    
    <div align="center">
-     A headless, GraphQL commerce platform delivering ultra-fast, dynamic, personalized shopping experiences.<br/>Beautiful online stores, anywhere, on any device.
+    Empowering healthcare access with seamless med-assist ecommerce solutions.
    </div>
    
    <br>
-   
-   <div align="center">
-     Join our active, engaged community: <br>
-     <a href="https://saleor.io/">Website</a>
-     <span> | </span>
-     <a href="https://twitter.com/getsaleor">Twitter</a>
-     <span> | </span>
-     <a href="https://github.com/saleor/saleor/discussions">GitHub Discussions</a>
-     <span> | </span>
-     <a href="https://discord.gg/H52JTZAtSH">Discord</a>
-   </div>
-   
-   <div align="center">
-      <a href="https://saleor.io/blog/">Blog</a>
-     <span> | </span>
-     <a href="https://saleor.typeform.com/to/JTJK0Nou">Subscribe to newsletter</a>
-   </div>
-   
    <br>
-   
-   <div align="center">
-     <a href="http://codecov.io/github/saleor/saleor?branch=master">
-       <img src="http://codecov.io/github/saleor/saleor/coverage.svg?branch=master" alt="Codecov" />
-     </a>
-     <a href="https://docs.saleor.io/">
-       <img src="https://img.shields.io/badge/docs-docs.saleor.io-brightgreen.svg" alt="Documentation" />
-     </a>
-     <a href="https://github.com/python/black">
-       <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
-     </a>
+
+
+ <div align="center">
+   Introducing "MediCareMart" - Your Trusted Med-Assist Ecommerce Platform
+
+MediCareMart is a cutting-edge ecommerce platform tailored specifically for the healthcare industry, revolutionizing the way medical supplies, equipment, and assistance are accessed and distributed. With a seamless user interface and an extensive range of products and services, MediCareMart aims to simplify the procurement process for both healthcare professionals and individual consumers.
+
+Key Features:
+
+Comprehensive Product Catalog:
+MediCareMart boasts an extensive catalog featuring a diverse range of medical supplies, pharmaceuticals, assistive devices, and healthcare equipment. From everyday essentials like bandages and vitamins to specialized equipment such as wheelchairs and respiratory aids, our platform caters to the diverse needs of healthcare facilities, caregivers, and patients alike.
+
+Easy Navigation and Search Functionality:
+Our user-friendly interface enables effortless navigation, allowing users to quickly browse through categories, brands, and specific product listings. Advanced search functionality ensures that users can easily locate the exact items they require, streamlining the purchasing process and saving valuable time.
+
+Secure Payment Processing:
+At MediCareMart, we prioritize the security of our customers' financial information. Our platform utilizes state-of-the-art encryption technology to ensure secure payment processing, providing peace of mind to users when making transactions online.
+
+Customized Account Management:
+Registered users have access to personalized account management features, allowing them to track order histories, manage prescriptions, and set up recurring orders for essential medications and supplies. Additionally, healthcare professionals can create institutional accounts to streamline purchasing for their practices or facilities.
+
+Telehealth Integration:
+MediCareMart seamlessly integrates telehealth services into its platform, enabling users to schedule virtual consultations with licensed healthcare professionals. Through our telehealth portal, patients can receive medical advice, prescriptions, and ongoing care from the comfort of their own homes, enhancing accessibility and convenience.
+
+Educational Resources and Support:
+In addition to offering a vast array of products and services, MediCareMart provides educational resources and support to empower users with knowledge about healthcare management, wellness practices, and disease prevention. Our platform features informative articles, videos, and interactive tools designed to promote health literacy and empower individuals to make informed decisions about their well-being.
+
+Responsive Customer Service:
+At MediCareMart, we prioritize customer satisfaction above all else. Our dedicated support team is available to assist users with any inquiries, concerns, or technical issues they may encounter while using our platform. Whether via live chat, email, or phone, our team is committed to providing prompt and helpful assistance to ensure a seamless shopping experience for all.
+
+Experience the Future of Healthcare Commerce with MediCareMart:
+With its user-centric design, extensive product offerings, and commitment to excellence, MediCareMart is poised to redefine the landscape of med-assist ecommerce. Whether you're a healthcare professional seeking essential supplies or a patient in need of personalized care, trust MediCareMart to deliver quality products, expert guidance, and unparalleled convenience every step of the way. Discover the future of healthcare commerce today with MediCareMart.
    </div>
    
-   ## Table of Contents
-   
-   - [What makes Saleor special?](#what-makes-saleor-special)
-   - [Features](#features)
-   - [Installation](#installation)
-   - [Documentation](#documentation)
-   - [Contributing](#contributing)
-   - [Your feedback](#your-feedback)
-   - [License](#license)
-   
-   ## What makes Saleor special?
-   
-   Saleor is a rapidly-growing open-source e-commerce platform that serves high-volume companies. Designed from the ground up to be extensible, headless, and composable.
-   
-   Learn more about [architecture](https://docs.saleor.io/docs/3.x/overview/architecture).
-   
-   ## Features
-   
-   - **Headless / API first**: Build mobile apps, custom storefronts, POS, automation, etc
-   - **Extensible**: Build anything with webhooks, apps, metadata, and attributes
-   - [**App Store**](https://github.com/saleor/apps): Leverage a collection of built-in integrations
-   - **GraphQL API**: Get many resources in a single request and [more](https://graphql.org/)
-   - **Multichannel**: Per channel control of pricing, currencies, stock, product, and more
-   - **Enterprise ready**: Secure, scalable, and stable. Battle-tested by big brands
-   - **CMS**: Content is king, that's why we have a kingdom built-in
-   - **Dashboard**: User-friendly, fast, and productive. (Decoupled project [repo](https://github.com/saleor/saleor-dashboard) )
-   - **Global by design** Multi-currency, multi-language, multi-warehouse, tutti multi!
-   - **Orders**: A comprehensive system for orders, dispatch, and refunds
-   - **Cart**: Advanced payment and tax options, with full control over discounts and promotions
-   - **Payments**: Flexible API architecture allows integration of any payment method
-   - **SEO**: Packed with features that get stores to a wider audience
-   - **Cloud**: Optimized for deployments using Docker
-   
-   Saleor is free and always will be.
-   Help us out… If you love free stuff and great software, give us a star! 🌟
-   
-   ![Saleor Dashboard - Modern UI for managing your e-commerce](https://user-images.githubusercontent.com/9268745/224249510-d3c7658e-6d5c-42c5-b4fb-93eaf65a5335.png)
-   
-   ## Installation
-   
-   [See the Saleor docs](https://docs.saleor.io/docs/3.x/developer/installation) for step-by-step installation and deployment instructions.
-   
-   Note:
-   The `main` branch is the development version of Saleor and it may be unstable. To use the latest stable version, download it from the [Releases](https://github.com/saleor/saleor/releases/) page or switch to a release tag.
-   
-   The current production-ready version is 3.x and you should use this version for all three components:
-   
-   - Saleor: https://github.com/saleor/saleor/releases/
-   - Dashboard: https://github.com/saleor/saleor-dashboard/releases/
-   - Storefront: https://github.com/saleor/react-storefront/releases/
-   
-   ### Saleor Cloud
-   The fastest way to develop with Saleor is by using developer accounts in [Saleor Cloud](https://cloud.saleor.io).
-   
-   Register [here](https://cloud.saleor.io/register) or install our [CLI tool](https://github.com/saleor/saleor-cli):
-   
-   `npm i -g @saleor/cli`
-   
-   and run the following command:
-   
-   `saleor register`
-   
-   Bootstrap your first [storefront](https://github.com/saleor/react-storefront) with:
-   
-   `saleor storefront create --url {your-saleor-graphql-endpoint}`
-   
-   ## Documentation
-   
-   Saleor documentation is available here: [docs.saleor.io](https://docs.saleor.io)
-   
-   To contribute, please see the [`saleor/saleor-docs` repository](https://github.com/saleor/saleor-docs/).
-   
-   ## Saleor Platform
-   
-   The easiest way to run all components of Saleor (API, storefront, and dashboard) together on your local machine is to use the [saleor-platform](https://github.com/saleor/saleor-platform) project. Go to that repository for instructions on how to use it.
-   
-   [View saleor-platform](https://github.com/saleor/saleor-platform)
-   
-   ## Storefront
-   
-   An open-source storefront example built with Next.js App Router, React.js, TypeScript, GraphQL, and Tailwind CSS.
-   
-   [React Storefront Repository](https://github.com/saleor/storefront)
-   
-   [View Storefront Example](https://storefront.saleor.io/)
-   
-   ## Dashboard
-   
-   For the dashboard, go to the [saleor-dashboard](https://github.com/saleor/saleor-dashboard) repository.
-   
-   ## Contributing
-   
-   We love your contributions and do our best to provide you with mentorship and support. If you are looking for an issue to tackle, take a look at issues labeled [`Good first issue`](https://github.com/saleor/saleor/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22+)
-   
-   If nothing grabs your attention, check [our roadmap](https://github.com/orgs/saleor/projects/3/views/4) or come up with your feature. Just drop us a line or [open an issue](https://github.com/saleor/saleor/issues/new) and we’ll work out how to handle it.
-   
-   Get more details in our [Contributing Guide](https://docs.saleor.io/docs/developer/community/contributing).
-   
-   ## Your feedback
-   
-   Do you use Saleor as an e-commerce platform?
-   Fill out this short survey and help us grow. It will take just a minute, but means a lot!
-   
-   [Take a survey](https://mirumee.typeform.com/to/sOIJbJ)
-   
-   ## License
-   
-   Disclaimer: Everything you see here is open and free to use as long as you comply with the [license](https://github.com/saleor/saleor/blob/master/LICENSE). There are no hidden charges. We promise to do our best to fix bugs and improve the code.
-   
-   #### Crafted with ❤️ by [Saleor Commerce](https://saleor.io)
-   
-   hello@saleor.io
